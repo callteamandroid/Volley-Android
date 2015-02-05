@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- meta for mobile screen : s -->
+        <meta name="viewport" content="width=device-width">
+        <meta name="msapplication-tap-highlight" content="no"/> 
+        <!-- meta for mobile screen : e -->
+        <title>HI</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="js/sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css">
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <!-- Include the Sidr JS -->
+        <script src="js/sidr-package-1.2.1/jquery.sidr.min.js"></script>
+        <script src="js/script.js"></script>
+        <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=welcome.html">
+    </head>
+    
+    <body>
+   
+        <!-- wrapper : s -->
+        <div class="wrapper">
+            <!-- Profile : s -->
+            <div class="profile">
+                <div class="photoProfile">
+                    <div class="smallLogo1">
+                        <img src="img/logoname.png">   
+                    </div>
+                    <div class="userName1">
+                    <h4 id="1">Social Network Content</h4>
+                    <h4 id="2">Management System</h4></div>
+                    <div class="mask"></div>
+                    <img class="mask" class="Profile" src="img/splashscreen.png">
+                </div>
+            </div>
+            <!-- Profile : e -->
+        </div>
+        <!-- wrapper : e -->
+                                            
+        
+    </body>
+    <script>
+        $(document).ready(function() {
+            // initialize tabs headline
+            $("#tab_nav ul").tabs("#panes > div", {event:'mouseover'});
+            // initialize scrollable
+            $(".scrollable").scrollable();
+            // initialize tabs pemilu dari masa ke masa
+            $("ul.tabs").tabs("div.panes > div");
+        });
+    </script>
+
+</html>
